@@ -3,6 +3,8 @@ The code for the paper "Neutral Utterances are Also Causes: Enhancing Conversati
 
 The appendix mentioned in the paper is present in [here](https://drive.google.com/file/d/1uuTwTjr8csn11BrLCqKx8IGkAbdjDQSp/view?usp=sharing). 
 
+Some code is based on [DAG-ERC](https://github.com/shenwzh3/DAG-ERC). 
+
 ## Requirements
 * Pytorch==1.8.1
 * Transformers==4.3.3
