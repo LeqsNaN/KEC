@@ -1,4 +1,0 @@
-Namespace(accumulate_step=2, add_emotion=True, att_dropout=0.1, batch_size=4, conv_encoder='none', csk_window=2, dag_dropout=0.0, emotion_dim=200, ff_dim=600, gpu_list='3', index=[16, 17, 18, 19, 20], lr=3e-05, mapping_type='max', max_len=200, model_size='base', model_variant='csk', multigpu=False, n_epochs=40, nhead=6, num_layers=5, pe_type='abs', pooler_type='all', rnn_dropout=0.0, save_dir='csk4_different_weight_decay', scheduler='constant', seed=[0, 1, 2, 3, 4], trm_dropout=0.1, utter_dim=300, valid_shuffle=True, warmup_rate=0.1, weight_decay=0.0005, window=2)
-
-dev fscore: 84.22(+-0.67)
-test fscore: 81.25(+-0.17)
