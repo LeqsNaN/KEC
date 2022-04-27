@@ -18,6 +18,6 @@ bash run_single.sh
 ```
 
 ## Some explanations
-`knowledge_select.py` is used to select sentimental related pieces of knowledge for a pair of utterances. 
+`knowledge_select.py` is used to select sentimental related pieces of knowledge for a pair of utterances. We have uploaded all the processed data in `dd_data`. 
 
 `entail_construct.py` is used to form the data into the entailment style with or without emotion words. The generatad files is used to train and evaluate the [baseline of RECCON-DD](https://github.com/declare-lab/RECCON). 
