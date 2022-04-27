@@ -1,4 +1,3 @@
-# KEC
 The code for the paper "Neutral Utterances are Also Causes: Enhancing Conversational Causal Emotion Entailment with Social Commonsense Knowledge". 
 
 The appendix mentioned in the paper is present in [here](https://drive.google.com/file/d/1uuTwTjr8csn11BrLCqKx8IGkAbdjDQSp/view?usp=sharing). 
