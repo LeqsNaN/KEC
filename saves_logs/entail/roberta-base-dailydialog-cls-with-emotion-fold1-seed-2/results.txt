@@ -1,0 +1,12 @@
+Namespace(batch_size=8, cuda=0, dataset='dailydialog', emotion=True, fold=1, model='rob', seed=2)
+
+              precision    recall  f1-score   support
+
+           0     0.9391    0.9683    0.9535     14052
+           1     0.6652    0.5003    0.5711      1767
+
+    accuracy                         0.9161     15819
+   macro avg     0.8021    0.7343    0.7623     15819
+weighted avg     0.9085    0.9161    0.9108     15819
+
+------------------------------------------------------

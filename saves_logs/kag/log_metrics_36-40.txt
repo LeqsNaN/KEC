@@ -1,0 +1,4 @@
+Namespace(accumulate_step=2, add_emotion=True, att_dropout=0.1, batch_size=4, conv_encoder='none', dag_dropout=0.1, emotion_dim=200, ff_dim=600, gpu_list='3', index=[36, 37, 38, 39, 40], lr=3e-05, model_size='base', model_variant='kag', multigpu=False, n_epochs=40, nhead=6, num_layers=8, pooler_type='all', rnn_dropout=0.0, save_dir='baseline', scheduler='constant', seed=[0, 1, 2, 3, 4], set_beta=True, trm_num_layers=3, unidirection=False, utter_dim=300, valid_shuffle=True, warmup_rate=0.1, weight_decay=0.0001, window=7)
+
+dev fscore: 78.22(+-0.8)
+test fscore: 75.02(+-1.13)

@@ -1,0 +1,148 @@
+Namespace(accumulate_step=2, add_emotion=True, att_dropout=0.1, batch_size=4, conv_encoder='none', csk_window=10, dag_dropout=0.0, emotion_dim=200, ff_dim=600, gpu_list='0', index=[1, 2, 3, 4, 5], lr=3e-05, mapping_type='max', max_len=200, model_size='base', model_variant='no_csk', multigpu=False, n_epochs=40, nhead=6, num_layers=5, pe_type='abs', pooler_type='all', rnn_dropout=0.0, save_dir='csk4_no_csk', scheduler='constant', seed=[0, 1, 2, 3, 4], trm_dropout=0.1, utter_dim=300, valid_shuffle=True, warmup_rate=0.1, weight_decay=0.0001, window=2)
+
+[Train] Epoch 1: ECE loss: 0.43971, Fscore: 0.4653
+[DEV]: Fscore: 0.4727
+[TEST]: Fscore: 0.4704
+[Train] Epoch 2: ECE loss: 0.31139, Fscore: 0.4747
+[DEV]: Fscore: 0.6146
+[TEST]: Fscore: 0.6274
+[Train] Epoch 3: ECE loss: 0.251279, Fscore: 0.6064
+[DEV]: Fscore: 0.7758
+[TEST]: Fscore: 0.7426
+[Train] Epoch 4: ECE loss: 0.242345, Fscore: 0.6926
+[DEV]: Fscore: 0.7415
+[TEST]: Fscore: 0.7113
+[Train] Epoch 5: ECE loss: 0.233658, Fscore: 0.704
+[DEV]: Fscore: 0.7738
+[TEST]: Fscore: 0.7309
+[Train] Epoch 6: ECE loss: 0.23336, Fscore: 0.7211
+[DEV]: Fscore: 0.7757
+[TEST]: Fscore: 0.736
+[Train] Epoch 7: ECE loss: 0.230055, Fscore: 0.7093
+[DEV]: Fscore: 0.7418
+[TEST]: Fscore: 0.7029
+[Train] Epoch 8: ECE loss: 0.228019, Fscore: 0.7048
+[DEV]: Fscore: 0.798
+[TEST]: Fscore: 0.7701
+[Train] Epoch 9: ECE loss: 0.229467, Fscore: 0.7253
+[DEV]: Fscore: 0.784
+[TEST]: Fscore: 0.7454
+[Train] Epoch 10: ECE loss: 0.224722, Fscore: 0.7182
+[DEV]: Fscore: 0.7517
+[TEST]: Fscore: 0.712
+[Train] Epoch 11: ECE loss: 0.223038, Fscore: 0.7186
+[DEV]: Fscore: 0.7711
+[TEST]: Fscore: 0.7394
+[Train] Epoch 12: ECE loss: 0.222641, Fscore: 0.7207
+[DEV]: Fscore: 0.8007
+[TEST]: Fscore: 0.7665
+[Train] Epoch 13: ECE loss: 0.225396, Fscore: 0.7261
+[DEV]: Fscore: 0.7778
+[TEST]: Fscore: 0.7501
+[Train] Epoch 14: ECE loss: 0.222795, Fscore: 0.7205
+[DEV]: Fscore: 0.8038
+[TEST]: Fscore: 0.7714
+[Train] Epoch 15: ECE loss: 0.222598, Fscore: 0.7338
+[DEV]: Fscore: 0.7665
+[TEST]: Fscore: 0.7394
+[Train] Epoch 16: ECE loss: 0.221712, Fscore: 0.727
+[DEV]: Fscore: 0.766
+[TEST]: Fscore: 0.7306
+[Train] Epoch 17: ECE loss: 0.22238, Fscore: 0.7242
+[DEV]: Fscore: 0.7534
+[TEST]: Fscore: 0.7226
+[Train] Epoch 18: ECE loss: 0.222028, Fscore: 0.7288
+[DEV]: Fscore: 0.7794
+[TEST]: Fscore: 0.7538
+[Train] Epoch 19: ECE loss: 0.218297, Fscore: 0.7358
+[DEV]: Fscore: 0.7769
+[TEST]: Fscore: 0.746
+[Train] Epoch 20: ECE loss: 0.218259, Fscore: 0.7241
+[DEV]: Fscore: 0.8001
+[TEST]: Fscore: 0.7666
+[Train] Epoch 21: ECE loss: 0.218633, Fscore: 0.7328
+[DEV]: Fscore: 0.7838
+[TEST]: Fscore: 0.7578
+[Train] Epoch 22: ECE loss: 0.219759, Fscore: 0.723
+[DEV]: Fscore: 0.7862
+[TEST]: Fscore: 0.7561
+[Train] Epoch 23: ECE loss: 0.218761, Fscore: 0.7373
+[DEV]: Fscore: 0.7721
+[TEST]: Fscore: 0.7352
+[Train] Epoch 24: ECE loss: 0.217726, Fscore: 0.7337
+[DEV]: Fscore: 0.7725
+[TEST]: Fscore: 0.7389
+[Train] Epoch 25: ECE loss: 0.217296, Fscore: 0.7343
+[DEV]: Fscore: 0.7839
+[TEST]: Fscore: 0.7535
+[Train] Epoch 26: ECE loss: 0.217493, Fscore: 0.7368
+[DEV]: Fscore: 0.7485
+[TEST]: Fscore: 0.7173
+[Train] Epoch 27: ECE loss: 0.217115, Fscore: 0.7356
+[DEV]: Fscore: 0.7405
+[TEST]: Fscore: 0.7078
+[Train] Epoch 28: ECE loss: 0.215329, Fscore: 0.7383
+[DEV]: Fscore: 0.7843
+[TEST]: Fscore: 0.7597
+[Train] Epoch 29: ECE loss: 0.214982, Fscore: 0.7394
+[DEV]: Fscore: 0.7241
+[TEST]: Fscore: 0.6917
+[Train] Epoch 30: ECE loss: 0.215563, Fscore: 0.7297
+[DEV]: Fscore: 0.7557
+[TEST]: Fscore: 0.7263
+[Train] Epoch 31: ECE loss: 0.213753, Fscore: 0.7352
+[DEV]: Fscore: 0.761
+[TEST]: Fscore: 0.7383
+[Train] Epoch 32: ECE loss: 0.213335, Fscore: 0.746
+[DEV]: Fscore: 0.7491
+[TEST]: Fscore: 0.7269
+[Train] Epoch 33: ECE loss: 0.213332, Fscore: 0.7477
+[DEV]: Fscore: 0.7429
+[TEST]: Fscore: 0.7217
+[Train] Epoch 34: ECE loss: 0.212904, Fscore: 0.7527
+[DEV]: Fscore: 0.7468
+[TEST]: Fscore: 0.7143
+[Train] Epoch 35: ECE loss: 0.212772, Fscore: 0.7573
+[DEV]: Fscore: 0.7652
+[TEST]: Fscore: 0.7354
+[Train] Epoch 36: ECE loss: 0.211911, Fscore: 0.7453
+[DEV]: Fscore: 0.7378
+[TEST]: Fscore: 0.7112
+[Train] Epoch 37: ECE loss: 0.21229, Fscore: 0.7558
+[DEV]: Fscore: 0.7386
+[TEST]: Fscore: 0.7109
+[Train] Epoch 38: ECE loss: 0.21118, Fscore: 0.744
+[DEV]: Fscore: 0.7411
+[TEST]: Fscore: 0.7178
+[Train] Epoch 39: ECE loss: 0.210844, Fscore: 0.7509
+[DEV]: Fscore: 0.7553
+[TEST]: Fscore: 0.7406
+[Train] Epoch 40: ECE loss: 0.212266, Fscore: 0.7506
+[DEV]: Fscore: 0.7519
+[TEST]: Fscore: 0.7147
+
+
+[FINAL--DEV]: best_Fscore: 0.8038
+
+              precision    recall  f1-score   support
+
+         neg     0.9598    0.9585    0.9592    2842.0
+         pos     0.6446    0.6524    0.6485     328.0
+
+    accuracy                         0.9268    3170.0
+   macro avg     0.8022    0.8055    0.8038    3170.0
+weighted avg     0.9272    0.9268    0.9270    3170.0
+
+
+
+[FINAL--TEST]: best_Fscore: 0.7714
+
+              precision    recall  f1-score   support
+
+         neg     0.9496    0.9473    0.9485   14052.0
+         pos     0.5889    0.5999    0.5943    1767.0
+
+    accuracy                         0.9085   15819.0
+   macro avg     0.7692    0.7736    0.7714   15819.0
+weighted avg     0.9093    0.9085    0.9089   15819.0
+
