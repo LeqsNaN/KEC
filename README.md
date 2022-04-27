@@ -19,7 +19,7 @@ bash run_single.sh
 ```
 
 ## Some explanations
-* `generate_knowledge.py` is used to generate social commonsense knowledge for our method. Put it in `comet-atomic-2020/models/comet_atomic2020_bart/` of [COMET-ATOMIC-2020](https://github.com/allenai/comet-atomic-2020). P.S. the paths of dumped files should be modified to your own data paths. We have uploaded all the generated knowledge data in `dd_data`. 
+* `generate_knowledge.py` is used to generate social commonsense knowledge for our method. Put it in `comet-atomic-2020/models/comet_atomic2020_bart/` of [COMET-ATOMIC-2020](https://github.com/allenai/comet-atomic-2020). P.S. the paths of loaded and dumped files should be modified to your own data paths. We have uploaded all the generated knowledge data in `dd_data`. 
 
 * `knowledge_select.py` is used to select sentimental related pieces of knowledge for a pair of utterances. We have uploaded all the processed data in `dd_data`. 
 
