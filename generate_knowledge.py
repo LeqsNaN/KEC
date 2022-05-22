@@ -126,7 +126,7 @@ def get_knowledge(model, dataset):
             for r in relation_set:
                 query = "{} {} [GEN]".format(utterance, r)
                 queries.append(query)
-            results = model.generate(queries, decode_method="beam", num_generate=2)
+            results = model.generate(queries, decode_method="beam", num_generate=5)
             for relation, result in zip(relation_set, results):
                 utter_knowledge[relation] = ' ==sep== '.join(result)
                 # if relation == 'oReact':
